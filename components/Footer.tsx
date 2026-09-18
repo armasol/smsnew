@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { smsHref } from '@/lib/site';
 
 export default function Footer() {
-  const x = process.env.NEXT_PUBLIC_X_URL || 'https://x.com/launchsmsfun';
+  const x = 'https://x.com/imsgfun';
   return (
     <footer className="footer">
       <div className="footerTop">

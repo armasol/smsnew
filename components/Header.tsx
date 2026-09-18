@@ -4,12 +4,12 @@ import { smsHref } from '@/lib/site';
 
 export default function Header() {
   const href = smsHref();
-  const x = process.env.NEXT_PUBLIC_X_URL || 'https://x.com/launchsmsfun';
+  const x = 'https://x.com/imsgfun';
   return (
     <header className="siteHeader">
       <div className="navShell">
         <Link className="brand" href="/" aria-label="Launch/SMS home">
-          <span className="brandImageWrap"><Image src="/images/logo.png" alt="Launch/SMS" width={122} height={34} priority /></span>
+          <span className="brandImageWrap"><Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo_new-BPlSuEzmYOEoOM3XBPYym07d6CucZU.png" alt="IMSG" width={124} height={57} priority /></span>
           <span className="brandFallback">LAUNCH/SMS</span>
         </Link>
         <nav className="navLinks" aria-label="Main navigation">
