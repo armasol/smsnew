@@ -9,7 +9,7 @@ export default function Header() {
     <header className="siteHeader">
       <div className="navShell">
         <Link className="brand" href="/" aria-label="Launch/SMS home">
-          <span className="brandImageWrap"><Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo_new-BPlSuEzmYOEoOM3XBPYym07d6CucZU.png" alt="IMSG" width={124} height={57} priority /></span>
+          <span className="brandImageWrap"><Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo_new-BPlSuEzmYOEoOM3XBPYym07d6CucZU.png" alt="IMSG" width={112} height={51} priority /></span>
           <span className="brandFallback">LAUNCH/SMS</span>
         </Link>
         <nav className="navLinks" aria-label="Main navigation">
